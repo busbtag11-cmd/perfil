@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- língua  -->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -11,15 +12,27 @@
 <body>
     
 <div class="profile">
+    <!-- foto de perfil  -->
     <img src="https://tse2.mm.bing.net/th/id/OIP.zUG6Vp6s2L6L205pgKSfOwHaHg?pid=Api&P=0&h=180" alt="profile picture">
+    <!-- nome  -->
     <h1>philipp</h1>
+    <!-- função  -->
     <h2>dev SENAI
-        <p>welcome to my page!</p>
+        <!-- mensagem inicial da página  -->
+    <p>welcome to my page!</p>
     
 <div class="links">
-  <a href="#" class="btn">instagram</a>
+  <a href="facebook.com" class="btn">instagram</a>
   <a href="#" class="btn">youtube</a>
- </div>
+  <!-- botão  -->
+<button class="btn" onclik="mostrarmensagem()">click here</button>
+<p id="mensagem"></p>
 </div>
+</div>
+<script>
+    function mostrarmensagem() {
+        document.getElementById("mensagem").innertext = "olá, você clicou no botão!";
+    }
+</script>
 </body>
 </html>

@@ -1,55 +1,95 @@
 body {
+    /* Zera margem do corpo do site. */
     margin: 0;
+    /* Zera espaçamento interno */
     padding: 0;
-    box-sizing: border-box;
-    background-color: #0c008b;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Altera cor de fundo do site */
+    background-color: #07acee;
+/* Altera a fonte do texto  */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Layount Site  */
     display: flex;
+    /* deixa os elementos do site ao centro  */
     justify-content: center;
+    /* Alinhamento Y - Vestical  */
     align-items: center;
+    /* utilizar altura 100%  */
     height: 100vh;
 }
+
 .profile {
-    padding: 5px;
-    color: white;
-    align-items: center;
+    /* alinhamento do texto  */
+    text-align: center;
+    /* cor do texto  */
+    color: rgb(73, 72, 72);
+
 }
+
 .profile img {
     width: 120px;
+     /* utilizar altura 120px  */
     height: 120px;
+    /* raio da borda  */
     border-radius: 50%;
+    /* ajuste do objeto  */
     object-fit: cover;
+    /* margem do botão  */
     margin-bottom: 15px;
 }
+
 .profile h1 {
+    /* tamanho da fonte  */
     font-size: 24px;
+    /* margem do botão  */
     margin-bottom: 5px;
 }
+
 .profile h2 {
+    /* tamanho da fonte  */
     font-size: 16px;
+    /* espessura da fonte  */
     font-weight: 600;
+    /* margem do botão  */
     margin-bottom: 10px;
 }
 
 .profile p {
+    /* tamanho da fonte  */
     font-size: 14px;
+    /* margem do botão  */
     margin-bottom: 20px;
 }
 
 /* Botões de link */
 .links .btn {
+     /* Layount Site  */
     display: block;
+    /* largura  */
     width: 100%;
+    /* cor de fundo  */
     background-color: white;
+    /* cor  */
     color: #2d2a52;
+    /* decoração de texto  */
     text-decoration: none;
+    /* espaçamento  */
     padding: 10px 0;
+    /* raio da borda  */
     border-radius: 10px;
+    /* margem do botão  */
     margin-bottom: 10px;
+    /* transição do fundo  */
     transition: background 0.3s;
+    /* alinhamento de texto  */
     text-align: center;
 }
 
 .links .btn:hover {
+    /* cor do fundo  */
     background-color: #ddd;
+}
+/* mensagem  */
+#mensagem {
+    /* cor  */
+    color: red;
 }
